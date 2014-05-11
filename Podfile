@@ -1,0 +1,7 @@
+platform :ios,      '7.0'  
+pod 'SDWebImage'
+pod 'Reachability'
+pod 'GVUserDefaults'
+pod 'BlocksKit'
+pod 'RegexKitLite'
+pod 'OHAttributedLabel'
