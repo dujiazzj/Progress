@@ -31,6 +31,9 @@
 		C4D4C617191F28D000E3B533 /* DJTeamModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C616191F28D000E3B533 /* DJTeamModule.m */; };
 		C4D4C61A191F28E600E3B533 /* DJTaskModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C619191F28E600E3B533 /* DJTaskModule.m */; };
 		C4D4C61D191F290000E3B533 /* DJActionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C61C191F290000E3B533 /* DJActionModule.m */; };
+		C4D4C620191F29D400E3B533 /* DJTaskCompletionMaintance.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C61F191F29D400E3B533 /* DJTaskCompletionMaintance.m */; };
+		C4D4C623191F29F700E3B533 /* DJTaskRemindMaintance.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C622191F29F700E3B533 /* DJTaskRemindMaintance.m */; };
+		C4D4C626191F2A1300E3B533 /* DJDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C625191F2A1300E3B533 /* DJDataBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,12 @@
 		C4D4C619191F28E600E3B533 /* DJTaskModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTaskModule.m; sourceTree = "<group>"; };
 		C4D4C61B191F290000E3B533 /* DJActionModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJActionModule.h; sourceTree = "<group>"; };
 		C4D4C61C191F290000E3B533 /* DJActionModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJActionModule.m; sourceTree = "<group>"; };
+		C4D4C61E191F29D400E3B533 /* DJTaskCompletionMaintance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTaskCompletionMaintance.h; sourceTree = "<group>"; };
+		C4D4C61F191F29D400E3B533 /* DJTaskCompletionMaintance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTaskCompletionMaintance.m; sourceTree = "<group>"; };
+		C4D4C621191F29F700E3B533 /* DJTaskRemindMaintance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTaskRemindMaintance.h; sourceTree = "<group>"; };
+		C4D4C622191F29F700E3B533 /* DJTaskRemindMaintance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTaskRemindMaintance.m; sourceTree = "<group>"; };
+		C4D4C624191F2A1300E3B533 /* DJDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJDataBase.h; sourceTree = "<group>"; };
+		C4D4C625191F2A1300E3B533 /* DJDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJDataBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +216,12 @@
 		C4D4C5FD191F279F00E3B533 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				C4D4C61E191F29D400E3B533 /* DJTaskCompletionMaintance.h */,
+				C4D4C61F191F29D400E3B533 /* DJTaskCompletionMaintance.m */,
+				C4D4C621191F29F700E3B533 /* DJTaskRemindMaintance.h */,
+				C4D4C622191F29F700E3B533 /* DJTaskRemindMaintance.m */,
+				C4D4C624191F2A1300E3B533 /* DJDataBase.h */,
+				C4D4C625191F2A1300E3B533 /* DJDataBase.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -369,11 +384,14 @@
 			files = (
 				C4D4C617191F28D000E3B533 /* DJTeamModule.m in Sources */,
 				C4D4C61D191F290000E3B533 /* DJActionModule.m in Sources */,
+				C4D4C626191F2A1300E3B533 /* DJDataBase.m in Sources */,
 				C4D4C5DC191F140100E3B533 /* DJAppDelegate.m in Sources */,
 				C4D4C601191F27D500E3B533 /* DJUserEntity.m in Sources */,
+				C4D4C623191F29F700E3B533 /* DJTaskRemindMaintance.m in Sources */,
 				C4D4C604191F27E800E3B533 /* DJGroupEntity.m in Sources */,
 				C4D4C607191F27FC00E3B533 /* DJTeamEntity.m in Sources */,
 				C4D4C61A191F28E600E3B533 /* DJTaskModule.m in Sources */,
+				C4D4C620191F29D400E3B533 /* DJTaskCompletionMaintance.m in Sources */,
 				C4D4C611191F28A700E3B533 /* DJUserModule.m in Sources */,
 				C4D4C5D8191F140100E3B533 /* main.m in Sources */,
 				C4D4C60A191F281C00E3B533 /* DJTaskEntity.m in Sources */,
