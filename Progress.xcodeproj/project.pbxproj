@@ -34,6 +34,7 @@
 		C4D4C620191F29D400E3B533 /* DJTaskCompletionMaintance.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C61F191F29D400E3B533 /* DJTaskCompletionMaintance.m */; };
 		C4D4C623191F29F700E3B533 /* DJTaskRemindMaintance.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C622191F29F700E3B533 /* DJTaskRemindMaintance.m */; };
 		C4D4C626191F2A1300E3B533 /* DJDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C625191F2A1300E3B533 /* DJDataBase.m */; };
+		C4D4C629191F317A00E3B533 /* DJTaskInGroupMaintance.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D4C628191F317A00E3B533 /* DJTaskInGroupMaintance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,8 @@
 		C4D4C622191F29F700E3B533 /* DJTaskRemindMaintance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTaskRemindMaintance.m; sourceTree = "<group>"; };
 		C4D4C624191F2A1300E3B533 /* DJDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJDataBase.h; sourceTree = "<group>"; };
 		C4D4C625191F2A1300E3B533 /* DJDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJDataBase.m; sourceTree = "<group>"; };
+		C4D4C627191F317A00E3B533 /* DJTaskInGroupMaintance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTaskInGroupMaintance.h; sourceTree = "<group>"; };
+		C4D4C628191F317A00E3B533 /* DJTaskInGroupMaintance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTaskInGroupMaintance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +223,8 @@
 				C4D4C61F191F29D400E3B533 /* DJTaskCompletionMaintance.m */,
 				C4D4C621191F29F700E3B533 /* DJTaskRemindMaintance.h */,
 				C4D4C622191F29F700E3B533 /* DJTaskRemindMaintance.m */,
+				C4D4C627191F317A00E3B533 /* DJTaskInGroupMaintance.h */,
+				C4D4C628191F317A00E3B533 /* DJTaskInGroupMaintance.m */,
 				C4D4C624191F2A1300E3B533 /* DJDataBase.h */,
 				C4D4C625191F2A1300E3B533 /* DJDataBase.m */,
 			);
@@ -390,6 +395,7 @@
 				C4D4C623191F29F700E3B533 /* DJTaskRemindMaintance.m in Sources */,
 				C4D4C604191F27E800E3B533 /* DJGroupEntity.m in Sources */,
 				C4D4C607191F27FC00E3B533 /* DJTeamEntity.m in Sources */,
+				C4D4C629191F317A00E3B533 /* DJTaskInGroupMaintance.m in Sources */,
 				C4D4C61A191F28E600E3B533 /* DJTaskModule.m in Sources */,
 				C4D4C620191F29D400E3B533 /* DJTaskCompletionMaintance.m in Sources */,
 				C4D4C611191F28A700E3B533 /* DJUserModule.m in Sources */,

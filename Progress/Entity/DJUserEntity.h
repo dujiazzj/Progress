@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  用户实体
+ */
 @interface DJUserEntity : NSObject
+
+@property(nonatomic,retain)NSString* ID;
+@property(nonatomic,retain)NSString* name;
 
 @end

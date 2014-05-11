@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *  动作模块
+ */
 @interface DJActionModule : NSObject
 
 @end

@@ -1,5 +1,5 @@
 //
-//  DJTaskCompletionMaintance.h
+//  DJTaskInGroupMaintance.h
 //  Progress
 //
 //  Created by 独嘉 on 14-5-11.
@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-/**
- *  维护任务完成情况
- */
-@interface DJTaskCompletionMaintance : NSObject
+@interface DJTaskInGroupMaintance : NSObject
 
 @end

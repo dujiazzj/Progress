@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  动作实体
+ */
 @interface DJActionEntity : NSObject
-
+@property(nonatomic,retain)NSString* ID;
+@property(nonatomic,retain)NSString* initiator;
+@property(nonatomic,retain)NSString* content;
 @end

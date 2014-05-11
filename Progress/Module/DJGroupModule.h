@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  任务组模块
+ */
 @interface DJGroupModule : NSObject
 
 @end

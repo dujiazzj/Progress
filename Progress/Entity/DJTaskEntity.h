@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  任务实体
+ */
 @interface DJTaskEntity : NSObject
-
+@property(nonatomic,retain)NSString* ID;
+@property(nonatomic,retain)NSString* content;
 @end

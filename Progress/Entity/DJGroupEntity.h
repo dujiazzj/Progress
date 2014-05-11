@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  任务组实体
+ */
 @interface DJGroupEntity : NSObject
-
+@property (nonatomic,retain)NSString* ID;
+@property (nonatomic,retain)NSString* name;
 @end

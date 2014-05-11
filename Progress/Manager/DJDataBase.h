@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  DB
+ */
 @interface DJDataBase : NSObject
 
 @end

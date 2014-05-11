@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  维护任务闹钟
+ */
 @interface DJTaskRemindMaintance : NSObject
 
 @end
